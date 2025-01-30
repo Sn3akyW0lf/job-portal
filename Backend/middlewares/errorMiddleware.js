@@ -1,8 +1,6 @@
 // Error Middleware
 
 const errorMiddleware = (err, req, res, next) => {
-    console.error('Got Errors', err.errors)
-
     const {
         name,
         lastName,

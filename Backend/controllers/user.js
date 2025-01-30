@@ -21,10 +21,6 @@ export const updateUser = async (req, res, next) => {
             id: req.user.userId
         }
     });
-    // user.name = name;
-    // user.lastName = lastName
-    // user.email = email
-    // user.location = location
 
     await User.update({
         name: name,

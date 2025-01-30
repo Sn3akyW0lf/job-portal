@@ -25,7 +25,7 @@ const authorization = async (req, res, next) => {
             });
         } else {
             return res.status(500).json({
-                message: 'Something Went Wrong  - Please Signin Again'
+                message: 'Something Went Wrong - Please Signin Again'
             });
         }
     }

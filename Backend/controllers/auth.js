@@ -82,7 +82,6 @@ export const registerUser = async (req, res, next) => {
         });
 
     } catch (error) {
-        console.log(error);
         return res.status(400).json({
             success: false,
             message: 'Error in Register Controller',
@@ -152,7 +151,6 @@ export const loginUser = async (req, res, next) => {
         }
 
     } catch (error) {
-        console.log(error);
         return res.status(400).json({
             success: false,
             message: 'Error in Login Controller',
